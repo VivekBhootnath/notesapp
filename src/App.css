@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+body {
+  
+    background-color: rgb(37, 23, 53);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Montserrat";
+    align-items: center;
+    justify-content: center;
+}
+.main {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 0px 15px;
+    min-height: 100vh;
+    color:#fff;
+   text-align: center;
+}
+.header{
+    display: flex;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+form{
+    width: 90%;
+}
+.notesinput {
+    display: flex;
+    background: rgba(28, 79, 245, 0.1);
+    /* background: rgba(255, 255, 255, 0.1); */
+    box-shadow: inset -6px -4px 2px rgba(255, 255, 255, 0.03);
+    border-radius: 5px;
+    border: 1.5px solid rgba(255, 255, 255, 0.326);
+    text-align: right;
+    width: 60%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+    
+}
+
+.search{
+    display: block;
+    /* background: rgba(255, 255, 255, 0.1); */
+    background: rgba(28, 79, 245, 0.1);
+    box-shadow: inset -6px -4px 2px rgba(255, 255, 255, 0.03);
+    border-radius: 5px;
+    border: 1.5px solid rgba(255, 255, 255, 0.326);
+    color:#fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 39%;
+}
+.search input{
+    width: 80%;
+}
+
+
+.notes {
+    max-width: 1200px;
+    margin: auto;
+    display:column;
+    grid-gap: 1rem;
+   
+}
+.notesinput input{
+    border-radius: 5px;
+    width: 80%;
+}
+.notesinput textarea {
+    white-space: pre-wrap;
+    border: none;
+    color: rgb(5, 5, 5);
+    resize: none;
+    width: 80%;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.noteslist{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: inset -6px -4px 2px rgba(255, 255, 255, 0.03);
+    border-radius: 5px;
+    border: 1.5px solid rgba(255, 255, 255, 0.326);
+    color: #fff;
+    padding: 15px;
+    min-height: 140px fit-content;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    overflow:hidden ;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.noteslist button{
+    width: 120px;
+}
+/* @media screen and (max-width: 900px) {
+    .notes {
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
+}
+@media screen and (max-width: 500px) {
+    .notes {
+        grid-template-columns: repeat(1, minmax(300px, 1fr));
+    }
+} */
